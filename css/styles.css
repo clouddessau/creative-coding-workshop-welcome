@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "TTInterphases";
+  font-weight: normal;
+  src: url("/assets/fonts/TTInterphases-Regular.woff2") format("woff2"),
+    url("/assets/fonts/TTInterphases-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TTInterphases";
+  font-weight: normal;
+  font-style: italic;
+  src: url("/assets/fonts/TTInterphases-Regular-Italic.woff2") format("woff2"),
+    url("/assets/fonts/TTInterphases-Regular-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TTInterphases-DemiBold";
+  font-weight: normal;
+  src: url("/assets/fonts/TTInterphases-DemiBold.woff2") format("woff2"),
+    url("/assets/fonts/TTInterphases-DemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TTInterphases";
+  font-weight: bold;
+  src: url("/assets/fonts/TTInterphases-Bold.woff2") format("woff2"),
+    url("/assets/fonts/TTInterphases-Bold.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "TTInterphases", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Symbol";
+  font-size: 16pt;
+}
+
+canvas {
+  display: block;
+}
+
+.section-content {
+  left: 50%;
+  position: absolute;
+  padding: 4rem 2rem;
+  width: 100%;
+  max-width: 1200px;
+  color: #fff;
+  transform: translateX(-50%);
+}
+
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+@media (min-width: 801px) {
+  h1 {
+    font-size: 3em;
+  }
+}
